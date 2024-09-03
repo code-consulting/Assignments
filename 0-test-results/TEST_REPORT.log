@@ -1,0 +1,34 @@
+Test Report
+
+Mentors: This report is generated automatically by the test runner. For more information on how to review homework assignments, please refer to the [Review Guide](https://github.com/HackYourFuture/mentors/blob/main/assignment-support/review-guide.md).
+
+>> 1-JavaScript - Week2 - ex1-giveCompliment <<
+
+Test date: 3-9-2024
+
+*** Unit Test Error Report ***
+
+Command failed: npx jest h:/dev/hackyourfuture/Assignments-fork/.dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js --colors --noStackTrace
+ FAIL  .dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js
+  js-wk2-ex1-giveCompliment
+    ✅ should exist and be executable (2 ms)
+    ✅ should have all TODO comments removed (1 ms)
+    ✅ `giveCompliment` should not contain unneeded console.log calls
+    ✅ should take a single parameter
+    ✅ should include a `compliments` array inside its function body
+    ❌ the `compliments` array should be initialized with 10 strings (1 ms)
+    ✅ should give a random compliment: You are `compliment`, `name`! (1 ms)
+
+  ● js-wk2-ex1-giveCompliment › the `compliments` array should be initialized with 10 strings
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 10
+    Received length: 9
+    Received array:  ["great", "awesome", "lovely", "exciting", "groovy", "exciting", "cool", "excellent", "nice"]
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 6 passed, 7 total
+Snapshots:   0 total
+Time:        1.011 s
+Ran all test suites matching /h:\\dev\\hackyourfuture\\Assignments-fork\\.dist\\1-JavaScript\\Week2\\unit-tests\\ex1-giveCompliment.test.js/i.

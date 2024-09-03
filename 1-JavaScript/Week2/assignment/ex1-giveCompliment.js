@@ -15,7 +15,7 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-Java
 2. Call the function three times, giving each function call the same argument:
    your name.
    Use `console.log` each time to display the return value of the
-   `giveCompliment` function to the console.
+   `giveCompliment` function to the console.x
 -----------------------------------------------------------------------------*/
 export function giveCompliment(name) {
   const compliments = [
@@ -27,7 +27,6 @@ export function giveCompliment(name) {
     'exciting',
     'cool',
     'excellent',
-    'smart',
     'nice',
   ];
   const compliment =
