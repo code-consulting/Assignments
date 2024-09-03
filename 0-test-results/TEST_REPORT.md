@@ -2,6 +2,16 @@
 
 **Mentors**: This report is generated automatically by the test runner. For more information on how to review homework assignments, please refer to the [Review Guide](https://github.com/HackYourFuture/mentors/blob/main/assignment-support/review-guide.md).
 
+## 1-JavaScript - Week2 - ex1-giveCompliment
+
+### Test date: 3-9-2024
+
+```text
+
+*** Spell Checker Report ***
+
+```
+
 ## 1-JavaScript - Week2 - ex2-dogYears
 
 ### Test date: 3-9-2024
