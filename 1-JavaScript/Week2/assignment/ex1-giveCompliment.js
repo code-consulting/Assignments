@@ -1,5 +1,5 @@
 /* -----------------------------------------------------------------------------
-Full description at: https://github.com/HackYourFuture/Assignments/tree/main/1-JavaScript/Week3#exercise-1-you-are-amazing
+Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-JavaScript/Week3#exercise-1-you-are-amazing
 
 1. Complete the function named `giveCompliment`as follows:
 
@@ -17,12 +17,25 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/1-J
    Use `console.log` each time to display the return value of the
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
-export function giveCompliment(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+export function giveCompliment(name) {
+  const compliments = [
+    'great',
+    'awesome',
+    'lovely',
+    'exciting',
+    'groovy',
+    'exciting',
+    'cool',
+    'excellent',
+    'smart',
+    'nice',
+  ];
+  const compliment =
+    compliments[Math.floor(Math.random() * compliments.length)];
+  return `You are ${compliment}, ${name}!`;
 }
 
 function main() {
-  // TODO substitute your own name for "HackYourFuture"
   const myName = 'HackYourFuture';
 
   console.log(giveCompliment(myName));
@@ -37,6 +50,7 @@ function main() {
 }
 
 // ! Do not change or remove the code below
+// #region Do not change or remove the code below
 if (process.env.NODE_ENV !== 'test') {
   main();
 }
