@@ -9,7 +9,7 @@ Let's rewrite it (or _refactor_ it, as experienced developers would call it):
 - Using the `map` and `filter` functions, rewrite the function body of
 `doubleEvenNumbers`.
 ------------------------------------------------------------------------------*/
-// ! Function to be tested
+// ! Function to be testedx
 function doubleEvenNumbers(numbers) {
   // TODO rewrite the function body using `map` and `filter`.
   const newNumbers = [];
