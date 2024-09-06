@@ -18,7 +18,7 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/1-J
    `giveCompliment` function to the console.
 -----------------------------------------------------------------------------*/
 export function giveCompliment(/* TODO parameter(s) go here */) {
-  // TODO complete this functionxxc
+  // TODO complete this functionxxcx
 }
 
 function main() {

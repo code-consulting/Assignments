@@ -2,7 +2,117 @@ Test Report
 
 Mentors: This report is generated automatically by the test runner. For more information on how to review homework assignments, please refer to the [Review Guide](https://github.com/HackYourFuture/mentors/blob/main/assignment-support/review-guide.md).
 
->> 1-JavaScript - Week2 - ex1-giveCompliment <<
+>> 1-JavaScript - Week2 - ex1-giveCompliment << <<
+
+Test date: 9/6/2024
+
+*** Unit Test Error Report ***
+
+Command failed: npx jest /home/jim/dev/hackyourfuture/Assignments-fork/.dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js --colors --noStackTrace
+ FAIL  .dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js
+  js-wk2-ex1-giveCompliment
+    ✅ should exist and be executable (2 ms)
+    ❌ should have all TODO comments removed (1 ms)
+    ✅ `giveCompliment` should not contain unneeded console.log calls (1 ms)
+    ❌ should take a single parameter (1 ms)
+    ✅ should include a `compliments` array inside its function body
+    ❌ the `compliments` array should be initialized with 10 strings (1 ms)
+    ❌ should give a random compliment: You are `compliment`, `name`! (2 ms)
+
+  ● js-wk2-ex1-giveCompliment › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+  ● js-wk2-ex1-giveCompliment › should take a single parameter
+
+    expect(received).toHaveLength(expected)
+
+    Expected length:   1
+    Received length:   0
+    Received function: [Function giveCompliment]
+
+  ● js-wk2-ex1-giveCompliment › the `compliments` array should be initialized with 10 strings
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 10
+    Received length: 0
+    Received array:  []
+
+  ● js-wk2-ex1-giveCompliment › should give a random compliment: You are `compliment`, `name`!
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "compliment is not randomly selected"
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 3 passed, 7 total
+Snapshots:   0 total
+Time:        0.424 s, estimated 1 s
+Ran all test suites matching /\/home\/jim\/dev\/hackyourfuture\/Assignments-fork\/.dist\/1-JavaScript\/Week2\/unit-tests\/ex1-giveCompliment.test.js/i.
+*** Spell Checker Report ***
+
+1-JavaScript/Week2/assignment/ex1-giveCompliment.js:21:25 - Unknown word (functionxxcx)
+
+>> 1-JavaScript - Week2 - ex1-giveCompliment << << <<
+
+Test date: 9/6/2024
+
+*** Unit Test Error Report ***
+
+Command failed: npx jest /home/jim/dev/hackyourfuture/Assignments-fork/.dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js --colors --noStackTrace
+ FAIL  .dist/1-JavaScript/Week2/unit-tests/ex1-giveCompliment.test.js
+  js-wk2-ex1-giveCompliment
+    ✅ should exist and be executable (2 ms)
+    ❌ should have all TODO comments removed (1 ms)
+    ✅ `giveCompliment` should not contain unneeded console.log calls (1 ms)
+    ❌ should take a single parameter (1 ms)
+    ✅ should include a `compliments` array inside its function body
+    ❌ the `compliments` array should be initialized with 10 strings (1 ms)
+    ❌ should give a random compliment: You are `compliment`, `name`! (1 ms)
+
+  ● js-wk2-ex1-giveCompliment › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+  ● js-wk2-ex1-giveCompliment › should take a single parameter
+
+    expect(received).toHaveLength(expected)
+
+    Expected length:   1
+    Received length:   0
+    Received function: [Function giveCompliment]
+
+  ● js-wk2-ex1-giveCompliment › the `compliments` array should be initialized with 10 strings
+
+    expect(received).toHaveLength(expected)
+
+    Expected length: 10
+    Received length: 0
+    Received array:  []
+
+  ● js-wk2-ex1-giveCompliment › should give a random compliment: You are `compliment`, `name`!
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "compliment is not randomly selected"
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 3 passed, 7 total
+Snapshots:   0 total
+Time:        0.449 s, estimated 1 s
+Ran all test suites matching /\/home\/jim\/dev\/hackyourfuture\/Assignments-fork\/.dist\/1-JavaScript\/Week2\/unit-tests\/ex1-giveCompliment.test.js/i.
+*** Spell Checker Report ***
+
+1-JavaScript/Week2/assignment/ex1-giveCompliment.js:21:25 - Unknown word (functionxxc)
+
+>> 1-JavaScript - Week2 - ex1-giveCompliment << << << <<
 
 Test date: 9/6/2024
 
@@ -56,3 +166,64 @@ Ran all test suites matching /\/home\/jim\/dev\/hackyourfuture\/Assignments-fork
 *** Spell Checker Report ***
 
 1-JavaScript/Week2/assignment/ex1-giveCompliment.js:21:25 - Unknown word (functionx)
+
+>> 1-JavaScript - Week2 - ex2-dogYears <<
+
+Test date: 9/6/2024
+
+*** Unit Test Error Report ***
+
+Command failed: npx jest /home/jim/dev/hackyourfuture/Assignments-fork/.dist/1-JavaScript/Week2/unit-tests/ex2-dogYears.test.js --colors --noStackTrace
+ FAIL  .dist/1-JavaScript/Week2/unit-tests/ex2-dogYears.test.js
+  js-wk2-ex2-dogYears
+    ✅ should exist and be executable (2 ms)
+    ❌ should have all TODO comments removed (1 ms)
+    ✅ `calculateDogAge` should not contain unneeded console.log calls (1 ms)
+    ❌ should take a single parameter (1 ms)
+    ❌ should give 7 dog years for 1 human year (1 ms)
+    ❌ should give 14 dog years for 2 human years (1 ms)
+    ❌ give 21 dog years for 3 human years (1 ms)
+
+  ● js-wk2-ex2-dogYears › should have all TODO comments removed
+
+    expect(received).toBeFalsy()
+
+    Received: true
+
+  ● js-wk2-ex2-dogYears › should take a single parameter
+
+    expect(received).toHaveLength(expected)
+
+    Expected length:   1
+    Received length:   0
+    Received function: [Function calculateDogAge]
+
+  ● js-wk2-ex2-dogYears › should give 7 dog years for 1 human year
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Your doggie is 7 years old in dog years!"
+    Received: undefined
+
+  ● js-wk2-ex2-dogYears › should give 14 dog years for 2 human years
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Your doggie is 14 years old in dog years!"
+    Received: undefined
+
+  ● js-wk2-ex2-dogYears › give 21 dog years for 3 human years
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Your doggie is 21 years old in dog years!"
+    Received: undefined
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 2 passed, 7 total
+Snapshots:   0 total
+Time:        0.446 s
+Ran all test suites matching /\/home\/jim\/dev\/hackyourfuture\/Assignments-fork\/.dist\/1-JavaScript\/Week2\/unit-tests\/ex2-dogYears.test.js/i.
+*** Spell Checker Report ***
+
+1-JavaScript/Week2/assignment/ex2-dogYears.js:19:25 - Unknown word (functionx)
