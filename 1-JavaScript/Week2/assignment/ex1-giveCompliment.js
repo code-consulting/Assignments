@@ -19,6 +19,7 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/1-J
 -----------------------------------------------------------------------------*/
 export function giveCompliment(/* TODO parameter(s) go here */) {
   // TODO complete this function
+  // later
 }
 
 function main() {

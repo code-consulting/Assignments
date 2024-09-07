@@ -34,6 +34,7 @@ body, this code is now written once only in a separated function.
 // a randomly selected element as its return value.
 function selectRandomly(/* TODO parameter(s) go here */) {
   // TODO complete this function
+  // later
 }
 
 export function tellFortune(/* TODO add parameter(s) here */) {
